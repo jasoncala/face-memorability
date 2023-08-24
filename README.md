@@ -7,7 +7,7 @@ The contents of this Github Repo includes:
 1. Summary slides containing the results of this exploratory work.
 2. A summary report giving more context to the slides.
 3. A combined jupyter's notebook meant to be used as a reference on how vectors/latents were manipulated.
-    - **(DO NOT RUN DIRECTLY)**
+    - **(DO NOT RUN DIRECTLY, REQUIRES FILES FROM PAPER)**
 5. Various direction vectors that can be used to modify semantic traits.
 
 If one would like to begin exploring this topic, it is recommended to read the related works mentioned in the report and start with the supplementary materials provided at: https://openreview.net/forum?id=tm9-r3-O2lt
