@@ -18,16 +18,16 @@ The direction vector, multiplied by a magnitude of either direction, must be add
 
 In the supplementary materials the memorability direction vector is represented by the variable w_sq as shown in the screenshot below.
 
-Screenshot of application here.
+![ Memorability modification example ](doc_images/mem_modify.png)
 
 ## How to Conditionally Modify Memorability (or any trait)
 
 To modify the memorability of an image while keeping another trait constant, subspace projection must be done. 
 
-Screenshot of subspace projection formula here.
+![ Subspace Projection Formula ](doc_images/subspace_projection.png)
 
 A new direction vector is created through subspace projection of two traits as seen below.
 
-Screenshot of example application
+![ Conditional smile example ](doc_images/conditional_smile.png)
 
 This new direction vector (cond_smile) can be applied just as the original. This example in particular will modify memorability (w_sq) without modifying smile.
