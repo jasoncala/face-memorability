@@ -1,2 +1,2 @@
-# face-memorability
-Controlling Memorability of Face Images
+# Controlling Memorability of Face Images
+Vector Internship 2023, Exploratory Work
