@@ -1,6 +1,8 @@
 # Controlling Memorability of Face Images
 Vector Internship 2023, Exploratory Work
 
+### **TODO** - Create a new notebook containing only important code snippets and instructions.
+
 The contents of this Github Repo includes:
 1. Summary slides containing the results of this exploratory work.
 2. A summary report giving more context to the slides.
