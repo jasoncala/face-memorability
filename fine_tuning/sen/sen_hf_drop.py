@@ -20,6 +20,14 @@ from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2
 from tensorflow.keras.models import Model
 from tensorflow.keras import metrics
 
+"""
+This script fine-tunes the SENet50 backbone of VGGFace for memorability prediction. 
+It includes dropout layers for regularization and employs a custom Euclidean distance loss. 
+The script uses transfer learning and implements callbacks for saving models and adjusting 
+learning rates during training.
+"""
+
+
 # Path to the Excel file containing memorability scores
 mem_score_xlsx = "faces/Memorability Scores/memorability-scores.xlsx"
 

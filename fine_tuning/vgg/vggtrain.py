@@ -16,6 +16,13 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Model
 from tensorflow.keras.callbacks import ModelCheckpoint, CSVLogger, ReduceLROnPlateau
 
+"""
+This script fine-tunes the VGGFace model for memorability prediction with adjusted 
+configurations for logging and learning rate schedules. It focuses on training the model 
+while optimizing for different experimental conditions.
+"""
+
+
 # Paths for memorability scores and face images
 mem_score_xlsx = "faces/Memorability Scores/memorability-scores.xlsx"
 face_images = "faces/10k US Adult Faces Database/Face Images/"

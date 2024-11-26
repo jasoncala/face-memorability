@@ -16,6 +16,13 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.models import Model
 from tensorflow.keras.callbacks import ModelCheckpoint, CSVLogger, ReduceLROnPlateau
 
+"""
+This script fine-tunes a VGGFace model with dropout layers for memorability score prediction.
+It uses transfer learning by adding a dense regression output layer and employs a custom 
+Euclidean distance loss function. Includes data generators, callbacks for saving models, 
+logging metrics, and reducing learning rates on plateau.
+"""
+
 # Define paths for memorability scores and face images
 mem_score_xlsx = "faces/Memorability Scores/memorability-scores.xlsx"
 face_images = "faces/10k US Adult Faces Database/Face Images/"

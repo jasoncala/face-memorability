@@ -20,6 +20,13 @@ from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2
 from tensorflow.keras.models import Model
 from tensorflow.keras import metrics
 
+"""
+This script fine-tunes the ResNet50 backbone of VGGFace for memorability prediction. 
+It incorporates training and validation pipelines, data generators, and callbacks 
+for monitoring and saving model performance during training.
+"""
+
+
 # Path to the Excel file containing memorability scores
 mem_score_xlsx = "faces/Memorability Scores/memorability-scores.xlsx"
 

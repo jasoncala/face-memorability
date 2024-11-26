@@ -17,6 +17,13 @@ from tensorflow.keras.layers import Dense  # Neural network layers
 from tensorflow.keras.models import Model  # Model handling
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, CSVLogger, ReduceLROnPlateau  # Training callbacks
 
+"""
+This script fine-tunes a VGGFace model without dropout layers for memorability prediction.
+It uses a dense output layer for regression and implements transfer learning. The script 
+focuses on a simpler variation of the training process compared to `vgg_hf_drop.py`.
+"""
+
+
 # Define paths for memorability scores and face images
 mem_score_xlsx = "faces/Memorability Scores/memorability-scores.xlsx"
 face_images = "faces/10k US Adult Faces Database/Face Images/"

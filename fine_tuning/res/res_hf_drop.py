@@ -20,6 +20,13 @@ from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Input, Conv2D, AveragePooling2D, MaxPooling2D
 from tensorflow.keras.models import Model, Sequential
 
+"""
+This script fine-tunes the ResNet50 backbone of VGGFace for memorability prediction with 
+dropout layers for regularization. It includes a regression output layer and uses 
+transfer learning, along with data generators and callbacks for robust training.
+"""
+
+
 # Path to the Excel file containing memorability scores
 mem_score_xlsx = "faces/Memorability Scores/memorability-scores.xlsx"
 
